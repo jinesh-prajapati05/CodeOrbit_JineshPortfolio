@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== Primary SEO ===== -->
+    <title>Jinesh Prajapati | Web Developer</title>
+    <meta name="description"
+        content="Portfolio of Jinesh Prajapati, a Web Development student building responsive, JavaScript-powered websites and web applications. Explore projects, skills, and experience.">
+    <meta name="keywords"
+        content="Jinesh Prajapati, Web Developer, Frontend Developer, JavaScript Developer, Web Development Portfolio, CodeOrbit Tech">
+    <meta name="author" content="Jinesh Prajapati">
+    <meta name="robots" content="index, follow">
+
+    <!-- ===== Open Graph / Social Preview ===== -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Jinesh Prajapati | Web Developer">
+    <meta property="og:description"
+        content="Portfolio of Jinesh Prajapati — Web Developer specializing in responsive, JavaScript-driven websites and applications.">
+    <meta property="og:image" content="assets/images/profile/og-preview.jpg">
+    <meta property="og:url" content="YOUR_PORTFOLIO_LIVE_URL">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- ===== Fonts (self-hosted-friendly, loaded via Google Fonts CDN) ===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- ===== Stylesheets ===== -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- ===== Favicon (replace with your own) ===== -->
+    <link rel="icon" href="assets/images/icons/favicon.svg" type="image/svg+xml">
+</head>
+
+<body>
+
+    <!-- Skip link for keyboard / screen-reader users -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- ============================= NAVBAR ============================= -->
+    <header class="navbar" id="navbar">
+        <nav class="nav-container" aria-label="Primary navigation">
+            <a href="#home" class="nav-logo" aria-label="Jinesh Prajapati - Home">
+                <span class="nav-logo-bracket">&lt;</span>Jinesh<span class="nav-logo-accent">.dev</span><span
+                    class="nav-logo-bracket">/&gt;</span>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+                <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+                <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+                <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark and light theme"
+                    aria-pressed="false">
+                    <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" aria-hidden="true">
+                        <circle cx="12" cy="12" r="4" />
+                        <path
+                            d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" />
+                    </svg>
+                    <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" aria-hidden="true">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+                    </svg>
+                </button>
+
+                <a href="assets/resume/resume.pdf" class="btn btn-outline btn-sm" download
+                    aria-label="Download resume PDF">Resume</a>
+
+                <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false"
+                    aria-controls="navLinks">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+
+        <!-- ============================= HERO ============================= -->
+        <section class="hero" id="home">
+            <div class="hero-container">
+                <div class="hero-content reveal">
+                    <p class="eyebrow"><span class="eyebrow-dot"></span>// 00. introduction</p>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="hero-name">Jinesh Prajapati</span>
+                    </h1>
+                    <h2 class="hero-headline">
+                        <span class="typed-role">Web Developer</span><span class="cursor-blink"
+                            aria-hidden="true">|</span>
+                    </h2>
+                    <p class="hero-desc">
+                        I build clean, responsive websites and JavaScript-powered web applications.
+                        Focused on writing readable code, solving real problems, and turning ideas into
+                        working products &mdash; while constantly learning modern web development practices
+                        through hands-on projects.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">View My Projects</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+
+                    <a href="assets/resume/resume.pdf" class="hero-resume-link" download>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" aria-hidden="true">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                            <polyline points="7 10 12 15 17 10" />
+                            <line x1="12" y1="15" x2="12" y2="3" />
+                        </svg>
+                        Download Resume (PDF)
+                    </a>
+                </div>
+
+                <!-- Signature visual: animated code editor mockup -->
+                <div class="hero-visual reveal" aria-hidden="true">
+                    <div class="code-window">
+                        <div class="code-window-header">
+                            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span
+                                class="dot dot-green"></span>
+                            <span class="code-window-title">developer.js</span>
+                        </div>
+                        <pre class="code-window-body"><code id="typedCode"></code></pre>
+                    </div>
+
+                    <span class="floating-chip chip-1">HTML5</span>
+                    <span class="floating-chip chip-2">CSS3</span>
+                    <span class="floating-chip chip-3">JavaScript</span>
+                    <span class="floating-chip chip-4">Git</span>
+                    <div class="glow-orb glow-orb-1"></div>
+                    <div class="glow-orb glow-orb-2"></div>
+                </div>
+            </div>
+
+            <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+                <span class="scroll-mouse"></span>
+            </a>
+        </section>
+
+        <!-- ============================= ABOUT ============================= -->
+        <section class="section" id="about">
+            <div class="container">
+                <p class="eyebrow"><span class="eyebrow-dot"></span>// 01. about-me</p>
+                <h2 class="section-title">About Me</h2>
+
+                <div class="about-grid">
+                    <div class="about-text reveal">
+                        <p>
+                            I'm a Web Development student and intern with a strong interest in building
+                            functional, user-friendly websites and web applications. My work centers on
+                            HTML, CSS, and JavaScript &mdash; turning static designs into interactive,
+                            responsive experiences that work well on any screen size.
+                        </p>
+                        <p>
+                            I enjoy the process of learning by building: taking a project from a blank file
+                            to a deployed, working product. I'm currently sharpening my skills through the
+                            <strong> CodeOrbit Tech Web Development Internship</strong>, where I work on
+                            practical, assignment-driven tasks.
+                        </p>
+                        <p>
+                            My goal is to keep growing as a professional developer &mdash; writing cleaner
+                            code, understanding the "why" behind best practices, and eventually contributing
+                            to real-world products and teams.
+                        </p>
+                    </div>
+
+                    <div class="about-stats reveal">
+                        <div class="stat-card">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">Projects Built</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">6+</span>
+                            <span class="stat-label">Core Technologies</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">Batch 07</span>
+                            <span class="stat-label">CodeOrbit Internship</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">Always On</span>
+                            <span class="stat-label">Learning Mode</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================= SKILLS ============================= -->
+        <section class="section section-alt" id="skills">
+            <div class="container">
+                <p class="eyebrow"><span class="eyebrow-dot"></span>// 02. skills</p>
+                <h2 class="section-title">Skills &amp; Technologies</h2>
+                <p class="section-subtitle">Technologies I use to design, build, and ship web projects.</p>
+
+                <div class="skills-category reveal">
+                    <h3 class="skills-category-title">Frontend</h3>
+                    <div class="skills-grid">
+
+                        <div class="skill-card">
+                            <span class="skill-icon">&lt;/&gt;</span>
+                            <h4 class="skill-name">HTML5</h4>
+                            <p class="skill-desc">Semantic, accessible markup structure.</p>
+                            <span class="skill-level">Confident</span>
+                        </div>
+
+                        <div class="skill-card">
+                            <span class="skill-icon">#</span>
+                            <h4 class="skill-name">CSS3</h4>
+                            <p class="skill-desc">Flexbox, Grid, animations &amp; responsive layouts.</p>
+                            <span class="skill-level">Confident</span>
+                        </div>
+
+                        <div class="skill-card">
+                            <span class="skill-icon">{}</span>
+                            <h4 class="skill-name">JavaScript</h4>
+                            <p class="skill-desc">DOM manipulation, events &amp; app logic.</p>
+                            <span class="skill-level">Confident</span>
+                        </div>
+
+                        <div class="skill-card">
+                            <span class="skill-icon">▦</span>
+                            <h4 class="skill-name">Responsive Design</h4>
+                            <p class="skill-desc">Mobile-first layouts across all devices.</p>
+                            <span class="skill-level">Confident</span>
+                        </div>
+
+                        <div class="skill-card">
+                            <span class="skill-icon">⌘</span>
+                            <h4 class="skill-name">DOM Manipulation</h4>
+                            <p class="skill-desc">Dynamic, interactive user interfaces.</p>
+                            <span class="skill-level">Practicing</span>
+                        </div>
+
+                        <div class="skill-card">
+                            <span class="skill-icon">⇄</span>
+                            <h4 class="skill-name">API Integration</h4>
+                            <p class="skill-desc">Fetching &amp; rendering external data.</p>
+                            <span class="skill-level">Learning</span>
+                        </div>
+
+                        <!-- React -->
+                        <div class="skill-card">
+                            <span class="skill-icon">⚛</span>
+                            <h4 class="skill-name">React.js</h4>
+                            <p class="skill-desc">Building reusable components and interactive user interfaces.</p>
+                            <span class="skill-level">Learning</span>
+                        </div>
+
+                        <!-- Node.js -->
+                        <div class="skill-card">
+                            <span class="skill-icon">⬢</span>
+                            <h4 class="skill-name">Node.js</h4>
+                            <p class="skill-desc">Building server-side applications and backend services.</p>
+                            <span class="skill-level">Learning</span>
+                        </div>
+
+                        <!-- Express.js -->
+                        <div class="skill-card">
+                            <span class="skill-icon">Ex</span>
+                            <h4 class="skill-name">Express.js</h4>
+                            <p class="skill-desc">Creating REST APIs and backend application routes.</p>
+                            <span class="skill-level">Learning</span>
+                        </div>
+
+                        <!-- MongoDB -->
+                        <div class="skill-card">
+                            <span class="skill-icon">DB</span>
+                            <h4 class="skill-name">MongoDB</h4>
+                            <p class="skill-desc">Working with NoSQL databases and application data.</p>
+                            <span class="skill-level">Learning</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- NOTE FOR JINESH: Edit this list to match tools you actually use day-to-day. -->
+                <div class="skills-category reveal">
+                    <h3 class="skills-category-title">Tools &amp; Workflow</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <span class="skill-icon">◆</span>
+                            <h4 class="skill-name">Git &amp; GitHub</h4>
+                            <p class="skill-desc">Version control &amp; code hosting.</p>
+                            <span class="skill-level">Practicing</span>
+                        </div>
+                        <div class="skill-card">
+                            <span class="skill-icon">▣</span>
+                            <h4 class="skill-name">VS Code</h4>
+                            <p class="skill-desc">Primary code editor &amp; extensions.</p>
+                            <span class="skill-level">Confident</span>
+                        </div>
+                        <div class="skill-card">
+                            <span class="skill-icon">▲</span>
+                            <h4 class="skill-name">Netlify</h4>
+                            <p class="skill-desc">Deploying &amp; hosting live projects.</p>
+                            <span class="skill-level">Practicing</span>
+                        </div>
+                        <div class="skill-card">
+                            <span class="skill-icon">◧</span>
+                            <h4 class="skill-name">Chrome DevTools</h4>
+                            <p class="skill-desc">Debugging &amp; performance checks.</p>
+                            <span class="skill-level">Practicing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================= PROJECTS ============================= -->
+        <section class="section" id="projects">
+            <div class="container">
+                <p class="eyebrow"><span class="eyebrow-dot"></span>// 03. projects</p>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A selection of things I've built while learning and practicing web
+                    development.</p>
+
+                <!-- Filter controls -->
+                <div class="project-filters" role="tablist" aria-label="Filter projects by category">
+                    <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+                    <button class="filter-btn" data-filter="frontend" role="tab" aria-selected="false">Frontend</button>
+                    <button class="filter-btn" data-filter="javascript" role="tab"
+                        aria-selected="false">JavaScript</button>
+                    <button class="filter-btn" data-filter="webapps" role="tab" aria-selected="false">Web Apps</button>
+                </div>
+
+                <div class="projects-grid" id="projectsGrid">
+
+                    <!-- PROJECT 1: E-Commerce Website (featured) -->
+                    <article class="project-card featured" data-category="frontend javascript">
+                        <div class="project-image">
+                            <!-- EDIT ME: replace with a real screenshot at assets/images/projects/ecommerce.jpg -->
+                            <img src="assets/images/projects/ecommerce-placeholder.png"
+                                alt="Screenshot of the E-Commerce website homepage showing product listings"
+                                loading="lazy">
+                            <span class="project-badge">Featured</span>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">E-Commerce Website</h3>
+                            <p class="project-desc">
+                                <!-- EDIT ME: replace with your project's real description -->
+                                A responsive e-commerce website built with a focus on clean product browsing,
+                                organized layouts, and a smooth shopping experience across devices.
+                            </p>
+
+                            <ul class="project-features">
+                                <!-- EDIT ME: replace with your project's real features -->
+                                <li>Responsive product listing &amp; layout</li>
+                                <li>Clean, organized UI structure</li>
+                                <li>Mobile-friendly navigation</li>
+                            </ul>
+
+                            <div class="project-tech">
+                                <span class="tech-badge">React</span>
+                                <span class="tech-badge">Node</span>
+                                <span class="tech-badge">Express</span>
+                                <span class="tech-badge">MongoDB</span>
+                            </div>
+
+                            <div class="project-links">
+                                <!-- <a href="YOUR_ECOMMERCE_LIVE_URL" class="btn btn-primary btn-sm placeholder-link"
+                                    target="_blank" rel="noopener noreferrer">
+                                    Live Demo <span class="placeholder-tag">Add Link</span>
+                                </a> -->
+                                <a href="https://github.com/jinesh-prajapati05"
+                                    class="btn btn-outline btn-sm placeholder-link" target="_blank"
+                                    rel="noopener noreferrer">
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 2: Task Management App (confirmed live URL) -->
+                    <article class="project-card" data-category="javascript webapps">
+                        <div class="project-image">
+                            <img src="assets/images/projects/task-manager-placeholder.png"
+                                alt="Screenshot of the Task Management App interface" loading="lazy">
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Task Management App</h3>
+                            <p class="project-desc">
+                                A task management / to-do web application for organizing daily tasks with a
+                                clean, distraction-free interface.
+                            </p>
+
+                            <ul class="project-features">
+                                <li>Add new tasks</li>
+                                <li>Manage and update tasks</li>
+                                <li>Delete completed or unwanted tasks</li>
+                                <li>Clean, minimal interface</li>
+                                <li>Fully responsive design</li>
+                            </ul>
+
+                            <div class="project-tech">
+                                <span class="tech-badge">React</span>
+                                <span class="tech-badge">Node</span>
+                                <span class="tech-badge">Express</span>
+                                <span class="tech-badge">MongoDB</span>
+                            </div>
+
+                            <div class="project-links">
+                                <!-- <a href="https://taskkk-management.netlify.app/" class="btn btn-primary btn-sm"
+                                    target="_blank" rel="noopener noreferrer">Live Demo</a> -->
+                                <a href="https://github.com/jinesh-prajapati05/Task-management"
+                                    class="btn btn-outline btn-sm placeholder-link" target="_blank"
+                                    rel="noopener noreferrer">
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 3: Coming soon placeholder (no additional verified project) -->
+                    <article class="project-card coming-soon" data-category="">
+                        <div class="project-body project-body-center">
+                            <span class="skill-icon" aria-hidden="true">+</span>
+                            <h3 class="project-title">More Projects Coming Soon</h3>
+                            <p class="project-desc">
+                                I'm actively building new projects during my internship and beyond.
+                                Check back soon, or visit my GitHub for the latest work.
+                            </p>
+                            <div class="project-links">
+                                <a href="https://github.com/jinesh-prajapati05"
+                                    class="btn btn-outline btn-sm placeholder-link" target="_blank"
+                                    rel="noopener noreferrer">
+                                    Visit GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================= SERVICES ============================= -->
+        <section class="section section-alt" id="services">
+            <div class="container">
+                <p class="eyebrow"><span class="eyebrow-dot"></span>// 04. what-i-can-do</p>
+                <h2 class="section-title">What I Can Do</h2>
+                <p class="section-subtitle">Areas I'm actively developing and applying in real projects.</p>
+
+                <div class="services-grid">
+                    <div class="service-card reveal">
+                        <span class="service-icon">▦</span>
+                        <h3 class="service-title">Responsive Web Development</h3>
+                        <p class="service-desc">Building layouts that adapt cleanly across mobile, tablet, and desktop
+                            screens.</p>
+                    </div>
+                    <div class="service-card reveal">
+                        <span class="service-icon">&lt;/&gt;</span>
+                        <h3 class="service-title">Frontend Development</h3>
+                        <p class="service-desc">Turning designs into structured, accessible HTML and CSS.</p>
+                    </div>
+                    <div class="service-card reveal">
+                        <span class="service-icon">{}</span>
+                        <h3 class="service-title">JavaScript Web Applications</h3>
+                        <p class="service-desc">Adding interactivity and logic with vanilla JavaScript.</p>
+                    </div>
+                    <div class="service-card reveal">
+                        <span class="service-icon">⇄</span>
+                        <h3 class="service-title">API Integration</h3>
+                        <p class="service-desc">Connecting frontend interfaces to external data sources.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================= EDUCATION ============================= -->
+        <section class="section" id="education">
+            <div class="container">
+                <p class="eyebrow"><span class="eyebrow-dot"></span>// 05. education</p>
+                <h2 class="section-title">Education</h2>
+
+                <!-- EDIT ME: replace placeholders with your real education details -->
+                <div class="timeline">
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2024 – 2027</span>
+                            <h3 class="timeline-title">Bachelor of Computer Applications (BCA)</h3>
+                            <p class="timeline-place">
+                                Sutex Bank College of Computer Applications &amp; Science
+                            </p>
+                            <p class="timeline-desc">
+                                Veer Narmad South Gujarat University (VNSGU) · Currently in 3rd Year
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================= EXPERIENCE ============================= -->
+        <section class="section section-alt" id="experience">
+            <div class="container">
+                <p class="eyebrow"><span class="eyebrow-dot"></span>// 06. experience</p>
+                <h2 class="section-title">Experience &amp; Internship</h2>
+
+                <div class="timeline">
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">1 September 2026 &ndash; 30 September 2026 &middot;
+                                Upcoming</span>
+                            <h3 class="timeline-title">Web Development Intern</h3>
+                            <p class="timeline-place">CodeOrbit Tech &middot; Batch 07 &middot; 1 Month (Virtual)</p>
+                            <p class="timeline-desc">
+                                An assignment-driven virtual internship focused on practical web development
+                                learning &mdash; building real frontend projects, following task-based
+                                milestones, and applying HTML, CSS, and JavaScript in guided, hands-on work.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================= GITHUB / DEV ACTIVITY ============================= -->
+        <section class="section" id="github">
+            <div class="container">
+                <p class="eyebrow"><span class="eyebrow-dot"></span>// 07. dev-activity</p>
+                <h2 class="section-title">GitHub &amp; Developer Activity</h2>
+
+                <div class="github-card reveal">
+                    <blockquote class="dev-quote">
+                        "I believe great products start with clean code and constant curiosity."
+                        <cite>&mdash; Jinesh Prajapati</cite>
+                    </blockquote>
+
+                    <div class="github-actions">
+                        <a href="https://github.com/jinesh-prajapati05" class="btn btn-primary placeholder-link" target="_blank"
+                            rel="noopener noreferrer">
+                            GitHub Profile</a>
+                        <a href="https://github.com/jinesh-prajapati05?tab=repositories" class="btn btn-outline placeholder-link" target="_blank"
+                            rel="noopener noreferrer">
+                            View Repositories
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================= CONTACT ============================= -->
+        <section class="section section-alt" id="contact">
+            <div class="container">
+                <p class="eyebrow"><span class="eyebrow-dot"></span>// 08. contact</p>
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Have a project, internship opportunity, or just want to say hi? Reach out.
+                </p>
+
+                <div class="contact-grid">
+                    <div class="contact-info reveal">
+                        <a href="mailto:jineshvariya@example.com" class="contact-item">
+                            <span class="contact-icon">✉</span>
+                            <div>
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">jineshvariya@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/prajapati-jinesh-737316371?utm_source=share_via&utm_contect=profile&utm_mrdium=member_android" class="contact-item" target="_blank" rel="noopener noreferrer">
+                            <span class="contact-icon">in</span>
+                            <div>
+                                <span class="contact-label">LinkedIn</span>
+                                <span class="contact-value">Connect with me</span>
+                            </div>
+                        </a>
+                        <a href="https://github.com/jinesh-prajapati05" class="contact-item" target="_blank" rel="noopener noreferrer">
+                            <span class="contact-icon">&lt;/&gt;</span>
+                            <div>
+                                <span class="contact-label">GitHub</span>
+                                <span class="contact-value">View my code</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <form class="contact-form reveal" id="contactForm" novalidate>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your full name" autocomplete="name">
+                            <span class="form-error" id="nameError" role="alert"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com"
+                                autocomplete="email">
+                            <span class="form-error" id="emailError" role="alert"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="What's this about?"
+                                autocomplete="off">
+                            <span class="form-error" id="subjectError" role="alert"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5"
+                                placeholder="Tell me a bit about your project or message..."></textarea>
+                            <span class="form-error" id="messageError" role="alert"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+
+                        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============================= FOOTER ============================= -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <span class="footer-name">Jinesh Prajapati</span>
+                <span class="footer-role">Web Developer</span>
+            </div>
+
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="footer-social">
+                <a href="https://github.com/jinesh-prajapati05" target="_blank" rel="noopener noreferrer"
+                    aria-label="GitHub profile">GitHub</a>
+                <a href="https://www.linkedin.com/in/prajapati-jinesh-737316371?utm_source=share_via&utm_contect=profile&utm_mrdium=member_android" target="_blank" rel="noopener noreferrer"
+                    aria-label="LinkedIn profile">LinkedIn</a>
+                <a href="mailto:jineshvariya@gmail.com" aria-label="Send email">Email</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <p class="footer-copyright">&copy; 2026 Jinesh Prajapati. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            aria-hidden="true">
+            <line x1="12" y1="19" x2="12" y2="5" />
+            <polyline points="5 12 12 5 19 12" />
+        </svg>
+    </button>
+
+    <!-- ===== Scripts ===== -->
+    <script src="js/theme.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
